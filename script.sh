@@ -3,12 +3,12 @@
 loop() {
   for i in $(seq 1 "$1"); do
     echo "$i $(date '+%H:%M:%S')"
-    sleep 0.1s
+    sleep 1s
   done
 }
 
-loop 600
+loop 900
 
 echo -e "\xEF\xBB\xBFFFourscore and seven years ago ..."
 
-loop 1200
+loop 300
