@@ -9,6 +9,6 @@ loop() {
 
 loop 900
 
-echo -e "\xEF\xBB\xBFFFourscore and seven years ago ..."
+echo -e "\xEF\xBB\xBFFourscore and seven years ago ..."
 
 loop 300
